@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8655281296514194416}
   - component: {fileID: 4117437747758533196}
+  - component: {fileID: 7471251479442720569}
+  - component: {fileID: 2478614172635599045}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Asteroid
@@ -46,6 +48,39 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.354509, y: 3.6238613, z: 5.9825916}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7471251479442720569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512000840424516683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f301f58213a71444ea51282046a5899b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 15
+  minSpeed: 5
+  rotationalSpeedMin: 5
+  rotationalSpeedMax: 15
+  movementDirection: {x: -1, y: 0, z: 0}
+--- !u!114 &2478614172635599045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512000840424516683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6d0d93a501438e84cffa33e9ecbcc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 5587333519594629070, guid: c34c359c899647148a75c1c18db29282,
+    type: 3}
+  popupCanvas: {fileID: 5063426923358822569, guid: 9733401ff5babce498b5c81218f18c80,
+    type: 3}
 --- !u!1001 &2996188979316244303
 PrefabInstance:
   m_ObjectHideFlags: 0
